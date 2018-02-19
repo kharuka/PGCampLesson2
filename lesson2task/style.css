@@ -1,0 +1,385 @@
+@chaarset "utf-8";
+/* 実践演習1 */
+
+/* 問題1 */
+
+.box1 {
+  width: 945px;
+  height: 370px;
+  background-image: url(picture/1_夜空.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 h1 {
+  color: #fff;
+}
+
+/* 問題2 */
+
+.box2 {
+  width: 945px;
+  height: 370px;
+  background-image: url(picture/2_ビル.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.box2 h1 p {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+/* 問題3 */
+
+.tittle {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.box3 h1 {
+  text-align: center;
+}
+
+.subbox {
+  width: 230px;
+  height: 150px;
+  margin: 20px;
+}
+
+.subbox-up {
+  width: 230px;
+  height: 50px;
+  border: solid 3px #33cc99;
+  background-color: #33cc99;
+}
+
+.subbox-down {
+  width: 230px;
+  height: 100px;
+  border: solid 3px #33cc99;
+  text-align: left;
+}
+
+/* 問題4 */
+
+.box4 {
+  width: 940px;
+  height: 370px;
+  border: solid 3px #33cc99;
+  display: flex;
+  justify-content: center;
+}
+
+.box4sub-left {
+  width: 470px;
+  height: 370px;
+  background-image: url(picture/3_ハンバーガー.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box4sub-right {
+  width: 470px;
+  height: 370px;
+}
+
+.box4sub-right-sub {
+  padding-top: 70px;
+  padding-left: 180px;
+}
+
+/* 問題5 */
+
+.box5 {
+  width: 480px;
+  height: 370px;
+}
+
+.table5, tr, td {
+  border: solid 1px #33cc99;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+/* 問題6 */
+
+.box6 {
+  display: flex;
+  justify-content: center;
+}
+
+.box6sub {
+  width: 150px;
+  height: 150px;
+}
+
+#lion {
+  background-image: url(picture/4_ライオン.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cat {
+  background-image: url(picture/5_ネコ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#dog {
+  background-image: url(picture/6_シバ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#panda {
+  background-image: url(picture/7_パンダ.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 実践演習2 */
+/* 実践1 */
+.box7 {
+  width: 300px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box7-sub{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto;
+}
+
+/* 実践2 */
+.box8 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.box8-sub{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto 1px auto 1px;
+}
+
+/* 実践3 */
+.box9 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.box9-sub1{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto 1px auto 1px;
+}
+
+.box9-sub2{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto 1px auto 1px;
+}
+
+.box9-sub3{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: auto;
+  margin-right: 1px;
+}
+
+/* 実践4 */
+.box10 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.box10-sub1{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto 1px auto 1px;
+}
+
+.box10-sub2{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: auto;
+}
+
+.box10-sub3{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* 実践5 */
+.box11 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box11-sub{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin: auto 1px auto 1px;
+}
+
+/* 実践6 */
+.box12 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.box12-sub1{
+  width: 100px;
+  height: 50px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.box12-sub2{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.box12-sub3{
+  width: 100px;
+  height: 200px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/* 実践7 */
+.box13 {
+  width: 600px;
+  border: solid 1px #33cc99;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.box13-sub1{
+  width: 100px;
+  height: 50px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.box13-sub2{
+  width: 100px;
+  height: 100px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: auto;
+}
+
+.box13-sub3{
+  width: 100px;
+  height: 200px;
+  border: solid 1px #33cc99;
+  background-color: #33cc99;
+  margin-left: auto;
+  margin-right: 1px;
+}

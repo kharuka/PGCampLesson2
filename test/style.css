@@ -1,0 +1,25 @@
+@chaarset "utf-8";
+
+.box{
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  align-items: flex-end;
+}
+
+.box1{
+  background: #f00;
+  width: 100px;
+  height: 40px;
+}
+.box2{
+  background: #ff0;
+  width: 100px;
+  height: 70px;
+}
+.box3{
+  background: #00f;
+  width: 100px;
+  height: 100px;
+}
