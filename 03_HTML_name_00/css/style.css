@@ -20,7 +20,7 @@ header {
   height: 132px;
 }
 
-.header-log{
+.header-logo{
   width: 381px;
   height: 80px;
   background-image: url(../images/header_logo.png);
@@ -105,7 +105,6 @@ header {
 }
 
 .about-subtitle{
-  font-size: 18px;
   margin-top: 30px;
   margin-bottom: 60px;
 }
@@ -213,6 +212,7 @@ header {
 .couse-box-body2{
   width: 682px;
   height: 462px;
+  background-color: #fafafa;
   display: flex;
   align-items: center;
 }
@@ -227,6 +227,7 @@ header {
 .couse-box-body3{
   width: 682px;
   height: 462px;
+  background-color: #fafafa;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -260,6 +261,7 @@ header {
 .couse-box-body6{
   width: 682px;
   height: 462px;
+  background-color: #fafafa;
   display: flex;
   align-items: center;
 }
@@ -273,7 +275,120 @@ header {
 
 /* NEWS */
 
+.news-title-box{
+  text-align: center;
+}
+
+.news-title {
+  color: #ffd61a;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.news-subtitle{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.news-box{
+  display: flex;
+  justify-content: center;
+}
+
+.news-subbox1{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.news-subbox1-up{
+  width: 300px;
+  height: 200px;
+  background-image: url(../images/news_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-subbox2{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.news-subbox2-up{
+  width: 300px;
+  height: 200px;
+  background-image: url(../images/news_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-subbox3{
+    width: 300px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.news-subbox3-up{
+  width: 300px;
+  height: 200px;
+  background-image: url(../images/news_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.news-more-box{
+  display: flex;
+  justify-content: center;
+}
+
+.news-more-button{
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ffd61a;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
 /* Access */
+
+.access{
+    background-color: #fafafa;
+}
+
+.access-box{
+  text-align: center;
+}
+
+.access-title {
+  color: #222222;
+  padding-top: 60px;
+  margin: 0px auto 30px auto;
+}
+
+.access-subtitle{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.access-map{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.access-table{
+  margin-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
 
 /* Contact */
 
