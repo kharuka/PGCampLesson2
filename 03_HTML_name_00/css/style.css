@@ -1,0 +1,282 @@
+@chaarset "utf-8";
+
+/* body */
+
+body {
+  width: 1366px;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-block{
+  width: 1366px;
+  height: 132px;
+}
+
+.header-log{
+  width: 381px;
+  height: 80px;
+  background-image: url(../images/header_logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.navi-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navi-about{
+  font-size: 21px;
+  padding: 50px;
+}
+
+.navi-course{
+  font-size: 21px;
+  padding: 50px;
+}
+
+.navi-news{
+  font-size: 21px;
+  padding: 50px;
+}
+
+.navi-access{
+  font-size: 21px;
+  padding: 50px;
+}
+
+.navi-contact{
+  font-size: 21px;
+  padding: 50px;
+}
+
+/* メインビジュアル */
+
+.main {
+  width: 1365px;
+  height: 500px;
+  background-image: url(../images/mainbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  margin: auto;
+}
+
+.main-title {
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-text {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+}
+
+/* About */
+
+.about-box{
+  text-align: center;
+}
+
+.about-title {
+  color: #ffd61a;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.about-subtitle{
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.about-text1{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.about-text2{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.about-text3{
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.about-pictures {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.about-picture1 {
+  width: 385px;
+  height: 255px;
+  background-image: url(../images/about_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-picture2 {
+  width: 385px;
+  height: 255px;
+  background-image: url(../images/about_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-picture3 {
+  width: 385px;
+  height: 255px;
+  background-image: url(../images/about_03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-picture4 {
+  width: 385px;
+  height: 255px;
+  background-image: url(../images/about_04.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Course */
+
+.course-box-top{
+  text-align: center;
+}
+
+.course-title {
+  color: #222222;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.course-text1{
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.course-box-body{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.couse-box-body1{
+  width: 682px;
+  height: 462px;
+  background-image: url(../images/course_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.couse-box-body1{
+  width: 682px;
+  height: 462px;
+  background-image: url(../images/course_01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.couse-box-body2{
+  width: 682px;
+  height: 462px;
+  display: flex;
+  align-items: center;
+}
+
+.couse-box-body2-text{
+  width: 430px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.couse-box-body3{
+  width: 682px;
+  height: 462px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.couse-box-body3-text{
+  width: 430px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.couse-box-body4{
+  width: 682px;
+  height: 462px;
+  background-image: url(../images/course_02.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.couse-box-body5{
+  width: 682px;
+  height: 462px;
+  background-image: url(../images/course_03.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.couse-box-body6{
+  width: 682px;
+  height: 462px;
+  display: flex;
+  align-items: center;
+}
+
+.couse-box-body6-text{
+  width: 430px;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NEWS */
+
+/* Access */
+
+/* Contact */
+
+/* footer */
+
+#footer {}
