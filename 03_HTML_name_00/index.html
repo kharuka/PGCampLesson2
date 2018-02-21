@@ -14,7 +14,7 @@
 <body>
 
   <!-- header -->
-  <header id="header">
+  <header id="header">
     <div class="header-logo"></div>
     <nav class="navi-box">
       <div class="navi-about"><a href="#about">ABOUT</a></div>
@@ -123,8 +123,8 @@
       <div class="news-subbox1">
         <div class="news-subbox1-up"></div>
         <div class="news-subbox1-down">
-          <div class="news-date">2016/11/18</div>
-          <div class="news-text">
+          <div class="news-date1">2016/11/18</div>
+          <div class="news-text1">
             <p>
               チーズアカデミー卒業生のコスゲさんによる チーズだけをふんだんに使用した話題のピザ屋 「Kosuge Pizza」が渋谷でオープンしました！
             </p>
@@ -134,8 +134,8 @@
       <div class="news-subbox2">
         <div class="news-subbox2-up"></div>
         <div class="news-subbox2-down">
-          <div class="news-date">2016/11/18</div>
-          <div class="news-text">
+          <div class="news-date2">2016/11/18</div>
+          <div class="news-text2">
             <p>
               チーズアカデミー卒業生のコスゲさんによる チーズだけをふんだんに使用した話題のピザ屋 「Kosuge Pizza」が渋谷でオープンしました！
             </p>
@@ -145,8 +145,8 @@
       <div class="news-subbox3">
         <div class="news-subbox3-up"></div>
         <div class="news-subbox3-down">
-          <div class="news-date">2016/11/18</div>
-          <div class="news-text">
+          <div class="news-date3">2016/11/18</div>
+          <div class="news-text3">
             <p>
               チーズアカデミー卒業生のコスゲさんによる チーズだけをふんだんに使用した話題のピザ屋 「Kosuge Pizza」が渋谷でオープンしました！
             </p>
@@ -168,7 +168,9 @@
       <h2 class="access-title">Access</h2>
       <h3 class="access-subtitle">会社情報</h3>
     </div>
-    <div class="access-map"><p>map</p></div>
+    <div class="access-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.388580031115!2d139.71172686525847!3d35.667432880197424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fa9e2e881%3A0x35396adb5ba7ce03!2sG&#39;s+ACADEMY+TOKYO!5e0!3m2!1sja!2sjp!4v1519230338099" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
     <div class="access-table">
       <table>
         <tr>
@@ -198,14 +200,102 @@
   <!-- Contact -->
   <div class="contact" id="contact">
     <div class="contact-box">
-      <h2 class="contact-title">CONTACT</h2>
-      <h3 class="contact-subtitle">説明会お申込み・お問合わせ</h3>
+      <div class="contact-subbox">
+        <div class="contact-subbox1">
+          <h2 class="contact-title">CONTACT</h2>
+          <h3 class="contact-subtitle">説明会お申込み・お問合わせ</h3>
+        </div>
+        <div class="contact-subbox2">
+          <div class="contact-text1">
+            <p>
+              ぜひ1度、足を運んでみませんか。説明会は随時開催中。<br> その他、お問い合わせもお気軽にどうぞ。お待ちしております。
+            </p>
+          </div>
+          <div class="contact-text2">
+            <p>
+              ※チーズアカデミーは実際には存在しません。<br> 間違っても問い合わせしないようお願いいたします。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact form -->
+      <div class="contact-form-box">
+        <form class="contact-form" action="index.html" method="post">
+
+          <!-- contact form table -->
+          <div class="contact-table">
+            <table>
+              <tr>
+                <td class="name">名前（入力必須）：</td>
+                <td class="name-text"><input type="text" name="name" value="" required></td>
+              </tr>
+              <tr>
+                <td class="kana">カナ（入力必須）：</td>
+                <td class="kana-text"><input type="text" name="kana" value="" required></td>
+              </tr>
+              <tr>
+                <td class="email">メールアドレス（入力必須）：</td>
+                <td class="email-text"><input type="email" name="email" value="" required></td>
+              </tr>
+              <tr>
+                <td class="chance"><div class="chance1">チーズアカデミーを</div><div class="chance2">知ったきっかけ：</div></td>
+                <td class="chance-text">
+                  <select name="chance" id="chance">
+                      <option value="chance1">google選択</option>
+                      <option value="chance2">SNS</option>
+                      <option value="chance3">紹介</option>
+                      <option value="chance2">たまたま通りかかった</option>
+                      <option value="chance3">その他</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td class="fra">志望動機（複数選択可）：</td>
+                <td class="fra-text">
+                  <div class="contact-rfa1">
+                    <input type="checkbox" name="rfa" value="起業をしたい">起業をしたい
+                  </div>
+                  <div class="contact-fra2">
+                    <input type="checkbox" name="rfa" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい
+                  </div>
+                  <div class="contact-fra3">
+                    <input type="checkbox" name="rfa" value="チーズと関わる仕事をしており、仕事に活かしたい">チーズと関わる仕事をしており、仕事に活かしたい
+                  </div>
+                  <div class="contact-fra4">
+                    <input type="checkbox" name="rfa" value="チーズの教養を身につけたい">チーズの教養を身につけたい
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="details">詳細：</td>
+                <td class="details-text">
+                  <textarea name="other" rows="8" cols="80" onfocus="if(this.value=='お問合わせ内容の詳細を入力してください。'){this.value='';}" onblur="if(this.value==''){this.value='お問合わせ内容の詳細を入力してください。。';}">お問合わせ内容の詳細を入力してください。</textarea>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- contact form button -->
+          <div class="contact-button">
+            <div>
+              <input type="submit" name="送信" value="送信" class="contact-send">
+            </div>
+            <div>
+              <input type="reset" name="リセット" value="リセット" class="contact-reset">
+            </div>
+          </div>
+
+      </div>
+
     </div>
   </div>
 
   <!-- footer -->
   <footer id="footer">
-
+    <div class="copyrights">
+      <p>copyrights 2016 Cheeese Academy Tokyo All RIghts Reserved.</p>
+    </div>
   </footer>
 
 </body>
