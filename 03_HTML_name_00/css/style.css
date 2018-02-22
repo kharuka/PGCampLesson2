@@ -8,21 +8,23 @@ body {
 
 /* header */
 
-header {
+.navi-box{
+  width: 1350px;
   position: fixed;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .header-block{
-  width: 1366px;
+  width: 1350px;
   height: 132px;
 }
 
 .header-logo{
   width: 381px;
   height: 80px;
+  margin-right: auto;
   background-image: url(../images/header_logo.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -124,6 +126,8 @@ header {
   margin-bottom: 80px;
 }
 
+/* about pictures */
+
 .about-pictures {
   margin-left: auto;
   margin-right: auto;
@@ -183,6 +187,8 @@ header {
   margin-top: 30px;
   margin-bottom: 60px;
 }
+
+/* course pictures and text */
 
 .course-box-body{
   margin-left: auto;
@@ -281,6 +287,8 @@ header {
   margin-bottom: 60px;
 }
 
+/* news pictures and text */
+
 .news-box{
   margin-top: 60px;
   margin-bottom: 30px;
@@ -297,7 +305,6 @@ header {
 .news-subbox1:hover{
     border: solid 1px #f00;
 }
-
 
 .news-subbox1-up{
   width: 300px;
@@ -361,6 +368,8 @@ header {
   margin-bottom: 24px;
 }
 
+/* news more button */
+
 .news-more-box{
   display: flex;
   justify-content: center;
@@ -406,11 +415,15 @@ header {
   margin-bottom: 60px;
 }
 
+/* access map */
+
 .access-map{
   margin-top: 60px;
   margin-bottom: 45px;
   text-align: center;
 }
+
+/* access table */
 
 .access-table table{
   border-spacing: 30px 15px;
@@ -434,20 +447,6 @@ header {
   text-align: center;
 }
 
-.contact-form-box{
-  display: flex;
-  justify-content: center;
-  /* text-align: center; */
-}
-
-.contact-form{
-  /* width: 400px; */
-}
-
-.contact-table table{
-    /* width: 328px; */
-}
-
 .contact-title{
   color: #222222;
   margin-top: 60px;
@@ -469,95 +468,152 @@ header {
   margin-bottom: 70px;
 }
 
+/* contact form */
+
+.contact-form-box{
+  display: flex;
+  justify-content: center;
+  /* text-align: center; */
+}
+
+/* contact form table */
+
 .contact-table table{
   border-spacing: 0px 0px;
 }
 
 .contact-table tr{
-  height: 50px;
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
-  /* line-height: 48px; */
 }
 
 .contact-table td{
-  height: 50px;
-  /* line-height: 48px; */
 }
 
-.name{
+.form-title{
+  width: 159px;
+  padding-top: 8px;
+  padding-right: 64px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+}
+
+.form-part{
+  width: 383px;
+  padding: 8px;
+}
+
+#name{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.name-text{
+#name-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-.kana{
+.name-input{
+  width: 322px;
+  height: 30px;
+  color: #bfbfbf;
+}
+
+#kana{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.kana-text{
+#kana-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-.email{
+.kana-input{
+  width: 322px;
+  height: 30px;
+  color: #bfbfbf;
+}
+
+#email{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.email-text{
+#email-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-.chance{
+.email-input{
+  width: 322px;
+  height: 30px;
+  color: #bfbfbf;
+}
+
+#chance{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.chance-text{
+#chance-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-.fra{
+.chance-select{
+  width: 328px;
+  height: 36px;
+}
+
+#rfa{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.fra-text{
+#fra-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-.details{
+.contact-rfa1{
+  margin-bottom: 24px;
+}
+
+.contact-rfa2{
+  margin-bottom: 24px;
+}
+
+.contact-rfa3{
+  margin-bottom: 24px;
+}
+
+.contact-rfa4{
+}
+
+#details{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-left-style: none;
 }
 
-.details-text{
+#details-text{
   border: solid 1px #bfbfbf;
   border-collapse: collapse;
   border-right-style: none;
 }
 
-/* form button */
+/* contact form button */
 
 .contact-button{
   display: flex;

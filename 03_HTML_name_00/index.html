@@ -14,9 +14,9 @@
 <body>
 
   <!-- header -->
-  <header id="header">
-    <div class="header-logo"></div>
+  <header id="header">
     <nav class="navi-box">
+      <div class="header-logo"></div>
       <div class="navi-about"><a href="#about">ABOUT</a></div>
       <div class="navi-course"><a href="#course">COURSE</a></div>
       <div class="navi-news"><a href="#news">NEWS</a></div>
@@ -55,12 +55,14 @@
         </p>
       </div>
 
+      <!-- about pictures -->
       <div class="about-pictures">
         <div class="about-picture1"></div>
         <div class="about-picture2"></div>
         <div class="about-picture3"></div>
         <div class="about-picture4"></div>
       </div>
+
     </div>
   </div>
 
@@ -75,6 +77,8 @@
           </p>
         </div>
       </div>
+
+      <!-- course pictures and text -->
       <div class="course-box-body">
         <div class="couse-box-body1"></div>
         <div class="couse-box-body2">
@@ -119,6 +123,8 @@
       <h2 class="news-title">NEWS</h2>
       <h3 class="news-subtitle">ニュース</h3>
     </div>
+
+    <!-- news pictures and text -->
     <div class="news-box">
       <div class="news-subbox1">
         <div class="news-subbox1-up"></div>
@@ -154,6 +160,8 @@
         </div>
       </div>
     </div>
+
+    <!-- news more button -->
     <div class="news-more-box">
       <div class="news-more-button">
         <!-- <a href="">More</a> -->
@@ -168,9 +176,13 @@
       <h2 class="access-title">Access</h2>
       <h3 class="access-subtitle">会社情報</h3>
     </div>
+
+    <!-- access map -->
     <div class="access-map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.388580031115!2d139.71172686525847!3d35.667432880197424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9fa9e2e881%3A0x35396adb5ba7ce03!2sG&#39;s+ACADEMY+TOKYO!5e0!3m2!1sja!2sjp!4v1519230338099" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+
+    <!-- access table -->
     <div class="access-table">
       <table>
         <tr>
@@ -227,21 +239,21 @@
           <div class="contact-table">
             <table>
               <tr>
-                <td class="name">名前（入力必須）：</td>
-                <td class="name-text"><input type="text" name="name" value="" required></td>
+                <td class="form-title" id="name"><div class="name-box">名前（入力必須）：</div></td>
+                <td class="form-part" id="name-text"><input type="text" name="name" value="" required class="name-input"></td>
               </tr>
               <tr>
-                <td class="kana">カナ（入力必須）：</td>
-                <td class="kana-text"><input type="text" name="kana" value="" required></td>
+                <td class="form-title" id="kana"><div class="kana-box">カナ（入力必須）：</div></td>
+                <td class="form-part" id="kana-text"><input type="text" name="kana" value="" required class="kana-input"></td>
               </tr>
               <tr>
-                <td class="email">メールアドレス（入力必須）：</td>
-                <td class="email-text"><input type="email" name="email" value="" required></td>
+                <td class="form-title" id="email"><div class="email-box1">メールアドレス</div><div class="email-box2">（入力必須）：</div></td>
+                <td class="form-part" id="email-text"><input type="email" name="email" value="" required class="email-input"></td>
               </tr>
               <tr>
-                <td class="chance"><div class="chance1">チーズアカデミーを</div><div class="chance2">知ったきっかけ：</div></td>
-                <td class="chance-text">
-                  <select name="chance" id="chance">
+                <td class="form-title" id="chance"><div class="chance-box1">チーズアカデミーを</div><div class="chance-box2">知ったきっかけ：</div></td>
+                <td class="form-part" id="chance-text">
+                  <select name="chance" id="chance" class="chance-select">
                       <option value="chance1">google選択</option>
                       <option value="chance2">SNS</option>
                       <option value="chance3">紹介</option>
@@ -251,26 +263,28 @@
                 </td>
               </tr>
               <tr>
-                <td class="fra">志望動機（複数選択可）：</td>
-                <td class="fra-text">
+                <td class="form-title" id="rfa"><div class="rfa-box1">志望動機</div><div class="rfa-box2">（複数選択可）：</div></td>
+                <td class="form-part" id="rfa-text">
                   <div class="contact-rfa1">
                     <input type="checkbox" name="rfa" value="起業をしたい">起業をしたい
                   </div>
-                  <div class="contact-fra2">
+                  <div class="contact-rfa2">
                     <input type="checkbox" name="rfa" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい
                   </div>
-                  <div class="contact-fra3">
+                  <div class="contact-rfa3">
                     <input type="checkbox" name="rfa" value="チーズと関わる仕事をしており、仕事に活かしたい">チーズと関わる仕事をしており、仕事に活かしたい
                   </div>
-                  <div class="contact-fra4">
+                  <div class="contact-rfa4">
                     <input type="checkbox" name="rfa" value="チーズの教養を身につけたい">チーズの教養を身につけたい
                   </div>
                 </td>
               </tr>
               <tr>
-                <td class="details">詳細：</td>
-                <td class="details-text">
-                  <textarea name="other" rows="8" cols="80" onfocus="if(this.value=='お問合わせ内容の詳細を入力してください。'){this.value='';}" onblur="if(this.value==''){this.value='お問合わせ内容の詳細を入力してください。。';}">お問合わせ内容の詳細を入力してください。</textarea>
+                <td class="form-title" id="details"><div class="details-box">詳細：</div></td>
+                <td class="form-part" id="details-text">
+                  <div class="details-textare">
+                    <textarea name="textarea" rows="8" cols="50" onfocus="if(this.value=='お問合わせ内容の詳細を入力してください。'){this.value='';}" onblur="if(this.value==''){this.value='お問合わせ内容の詳細を入力してください。。';}">お問合わせ内容の詳細を入力してください。</textarea>
+                  </div>
                 </td>
               </tr>
             </table>
