@@ -233,7 +233,7 @@
 
       <!-- contact form -->
       <div class="contact-form-box">
-        <form class="contact-form" action="index.html" method="post">
+        <form class="contact-form" action="post.php" method="post">
 
           <!-- contact form table -->
           <div class="contact-table">
@@ -254,11 +254,11 @@
                 <td class="form-title" id="chance"><div class="chance-box1">チーズアカデミーを</div><div class="chance-box2">知ったきっかけ：</div></td>
                 <td class="form-part" id="chance-text">
                   <select name="chance" id="chance" class="chance-select">
-                      <option value="chance1">google選択</option>
-                      <option value="chance2">SNS</option>
-                      <option value="chance3">紹介</option>
-                      <option value="chance2">たまたま通りかかった</option>
-                      <option value="chance3">その他</option>
+                      <option value="google選択">google選択</option>
+                      <option value="SNS">SNS</option>
+                      <option value="紹介">紹介</option>
+                      <option value="たまたま通りかかった">たまたま通りかかった</option>
+                      <option value="その他">その他</option>
                     </select>
                 </td>
               </tr>
@@ -266,16 +266,16 @@
                 <td class="form-title" id="rfa"><div class="rfa-box1">志望動機</div><div class="rfa-box2">（複数選択可）：</div></td>
                 <td class="form-part" id="rfa-text">
                   <div class="contact-rfa1">
-                    <input type="checkbox" name="rfa" value="起業をしたい">起業をしたい
+                    <input type="checkbox" name="rfa1" value="起業をしたい">起業をしたい
                   </div>
                   <div class="contact-rfa2">
-                    <input type="checkbox" name="rfa" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい
+                    <input type="checkbox" name="rfa2" value="チーズ系企業に就職・転職したい">チーズ系企業に就職・転職したい
                   </div>
                   <div class="contact-rfa3">
-                    <input type="checkbox" name="rfa" value="チーズと関わる仕事をしており、仕事に活かしたい">チーズと関わる仕事をしており、仕事に活かしたい
+                    <input type="checkbox" name="rfa3" value="チーズと関わる仕事をしており、仕事に活かしたい">チーズと関わる仕事をしており、仕事に活かしたい
                   </div>
                   <div class="contact-rfa4">
-                    <input type="checkbox" name="rfa" value="チーズの教養を身につけたい">チーズの教養を身につけたい
+                    <input type="checkbox" name="rfa4" value="チーズの教養を身につけたい">チーズの教養を身につけたい
                   </div>
                 </td>
               </tr>
